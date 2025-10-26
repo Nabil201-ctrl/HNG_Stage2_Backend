@@ -1,0 +1,21 @@
+// for local connection
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "mySQL Local",
+      "database": "sys",
+      "username": "root",
+      "connectionTimeout": 30,
+      "askForPassword": true
+    }
+  ]
+}

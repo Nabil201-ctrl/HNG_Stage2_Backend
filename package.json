@@ -1,0 +1,32 @@
+{
+  "name": "country-currency-and-exchange-api",
+  "version": "1.0.0",
+  "description": "A RESTful API that fetches country data from an external API, stores it in a database, and provides CRUD operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-musty/Country-Currency-and-Exchange-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Dev-musty/Country-Currency-and-Exchange-API/issues"
+  },
+  "homepage": "https://github.com/Dev-musty/Country-Currency-and-Exchange-API#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jimp": "^0.22.10",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.10"
+  }
+}
