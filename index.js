@@ -25,6 +25,9 @@ dbInit();
 // routes
 app.use('/', currencyExchangeRoutes);
 
-app.listen(port, async() => {
-  console.log(`App running on port -> ${port}`);
+const PORT = process.env.PORT ;
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`✅ Server is running on port ${PORT}`);
 });
+
