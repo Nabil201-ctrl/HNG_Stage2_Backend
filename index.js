@@ -25,6 +25,11 @@ dbInit();
 // routes
 app.use('/', currencyExchangeRoutes);
 
+/* For LeapCell */
+app.get("/kaithhealth", (req, res) => {
+  res.status(200).send("OK");
+});
+
 const PORT = process.env.PORT ;
 
 app.listen(PORT, '0.0.0.0', () => {
