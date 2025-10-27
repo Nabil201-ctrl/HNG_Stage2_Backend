@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dev-musty/Country-Currency-and-Exchange-API.git"
+    "url": "https://github.com/Nabil201-ctrl/HNG_Stage2_Backend"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/Dev-musty/Country-Currency-and-Exchange-API/issues"
+    "url": "https://github.com/Nabil201-ctrl/HNG_Stage2_Backend/issues"
   },
-  "homepage": "https://github.com/Dev-musty/Country-Currency-and-Exchange-API#readme",
+  "homepage": "https://github.com/Nabil201-ctrl/HNG_Stage2_Backend#readme",
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
